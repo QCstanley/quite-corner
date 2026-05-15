@@ -1,320 +1,268 @@
 <!DOCTYPE html>
-<html lang="zh-TW"><html>
+<html lang="zh-TW">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.77">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4689cc; -webkit-text-stroke: #4689cc}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #c27e65; -webkit-text-stroke: #c27e65}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #8cd3fe; -webkit-text-stroke: #8cd3fe}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca; min-height: 16.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d7378; -webkit-text-stroke: #6d7378}
-    span.s1 {font-kerning: none; background-color: #171818}
-    span.s2 {font-kerning: none; color: #8cd3fe; background-color: #171818; -webkit-text-stroke: 0px #8cd3fe}
-    span.s3 {font-kerning: none; color: #6d6d6d; background-color: #171818; -webkit-text-stroke: 0px #6d6d6d}
-    span.s4 {font-kerning: none; color: #4689cc; background-color: #171818; -webkit-text-stroke: 0px #4689cc}
-    span.s5 {font-kerning: none; color: #cacaca; background-color: #171818; -webkit-text-stroke: 0px #cacaca}
-    span.s6 {font-kerning: none; color: #c27e65; background-color: #171818; -webkit-text-stroke: 0px #c27e65}
-    span.s7 {font-kerning: none; color: #d4d4d4; background-color: #171818; -webkit-text-stroke: 0px #d4d4d4}
-    span.s8 {font-kerning: none; color: #71c083; background-color: #171818; -webkit-text-stroke: 0px #71c083}
-    span.s9 {font-kerning: none; color: #a7c598; background-color: #171818; -webkit-text-stroke: 0px #a7c598}
-    span.s10 {font-kerning: none}
-    span.s11 {font-kerning: none; color: #6d7378; background-color: #171818; -webkit-text-stroke: 0px #6d7378}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>靜池一隅｜金山質感漫遊</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #E5E5E5;
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+        .poster-container {
+            background-color: #F9F8F6;
+            color: #333333;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+        .text-accent {
+            color: #7A7A7A;
+        }
+        .border-accent {
+            border-color: #E0DFDB;
+        }
+        .timeline-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #999999;
+            border-radius: 50%;
+            position: absolute;
+            left: -4.5px;
+            top: 6px;
+        }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s4">html</span><span class="s5"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s1">"zh-TW"</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s6">"UTF-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s5"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">title</span><span class="s3">&gt;</span><span class="s1">靜池一隅｜金山質感漫遊</span><span class="s3">&lt;/</span><span class="s4">title</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&amp;display=swap"</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">body</span><span class="s1"> </span><span class="s7">{</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">font-family:</span><span class="s1"> </span><span class="s8">'Noto Sans TC'</span><span class="s7">,</span><span class="s1"> </span><span class="s6">sans-serif</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background-color:</span><span class="s1"> #E5E5E5</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">margin:</span><span class="s1"> </span><span class="s9">0</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">padding:</span><span class="s1"> </span><span class="s9">2rem</span><span class="s1"> </span><span class="s9">1rem</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.poster-container</span><span class="s5"> </span><span class="s7">{</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background-color:</span><span class="s1"> #F9F8F6</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">color:</span><span class="s1"> #333333</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">max-width:</span><span class="s1"> </span><span class="s9">1000px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">margin:</span><span class="s1"> </span><span class="s9">0</span><span class="s1"> </span><span class="s6">auto</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">box-shadow:</span><span class="s1"> </span><span class="s9">0</span><span class="s1"> </span><span class="s9">20px</span><span class="s1"> </span><span class="s9">40px</span><span class="s1"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s7">,</span><span class="s9">0</span><span class="s7">,</span><span class="s9">0</span><span class="s7">,</span><span class="s9">0.08</span><span class="s6">)</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.text-accent</span><span class="s5"> </span><span class="s7">{</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">color:</span><span class="s1"> #7A7A7A</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.border-accent</span><span class="s5"> </span><span class="s7">{</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">border-color:</span><span class="s1"> #E0DFDB</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.timeline-dot</span><span class="s5"> </span><span class="s7">{</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">width:</span><span class="s1"> </span><span class="s9">8px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">height:</span><span class="s1"> </span><span class="s9">8px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background-color:</span><span class="s1"> #999999</span><span class="s7">;</span></p>
-<p class="p3"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">border-radius:</span><span class="s5"> </span><span class="s9">50%</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">position:</span><span class="s1"> </span><span class="s6">absolute</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">left:</span><span class="s1"> </span><span class="s9">-4.5px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">top:</span><span class="s1"> </span><span class="s9">6px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
-<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s3">&lt;</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"poster-container pb-16"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Header Section --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">header</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"pt-20 px-10 md:px-20 text-center"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">h2</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm md:text-base text-accent tracking-[0.3em] mb-4 uppercase"</span><span class="s3">&gt;</span><span class="s5">Jing Chi Yi Yu</span><span class="s3">&lt;/</span><span class="s4">h2</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">h1</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-4xl md:text-5xl font-light tracking-[0.2em] mb-6 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">靜 池 一 隅</span><span class="s3">&lt;/</span><span class="s4">h1</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-12 h-px bg-gray-400 mx-auto mb-6"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-lg md:text-xl font-light tracking-widest text-gray-600"</span><span class="s3">&gt;</span><span class="s5">隱於百年老街，擁抱山海之息</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">header</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Intro Text --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-24 px-10 md:px-32 text-center"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">h3</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-lg font-medium tracking-widest mb-6 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">出門即景點・入室即安居</span><span class="s3">&lt;/</span><span class="s4">h3</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"leading-relaxed font-light text-gray-700 tracking-wide"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>在靜謐與繁華的交界，為您們留了一處安放身心的角落。</span><span class="s3">&lt;</span><span class="s4">br</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>這是一趟不趕時間、專注於五感體驗的旅程。</span><span class="s3">&lt;</span><span class="s4">br</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>乘著自駕的隨性，讓您與伴侶能牽著手，慢慢感受北海岸的溫度。</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Itinerary Section --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-24 px-8 md:px-16 flex flex-col gap-24"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 兩天一夜 (Option A) --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"itinerary-block"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"border-b border-accent pb-4 mb-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">h3</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-medium tracking-widest mb-2"</span><span class="s3">&gt;</span><span class="s5">OPTION A</span><span class="s3">&lt;/</span><span class="s4">h3</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">h4</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl font-light tracking-wider"</span><span class="s3">&gt;</span><span class="s5">經典山海休日自駕遊</span><span class="s3">&lt;/</span><span class="s4">h4</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm text-accent mt-2 tracking-wide"</span><span class="s3">&gt;</span><span class="s5">2 Days 1 Night</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex flex-col md:flex-row gap-12"</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s1">&lt;!-- Text Timeline --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"flex-1"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">&lt;!-- Day 1 --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"mb-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">h5</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-bold tracking-widest bg-gray-200 inline-block px-3 py-1 mb-6 text-gray-700"</span><span class="s3">&gt;</span><span class="s5">DAY 1</span><span class="s3">&lt;/</span><span class="s4">h5</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">14:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">遠眺雙嶼</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">抵達金山，漫步獅頭山公園，享受海風遠眺燭臺雙嶼。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">16:30 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">入住靜池一隅</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">驅車前往老街停妥愛車，入住「靜池一隅」。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">17:30 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">老街晚宴</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">傍晚人潮散去，愜意品嚐鴨肉與拔絲地瓜。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">19:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">溫泉洗滌</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">散步享受足湯，或驅車體驗充滿歷史感的個人湯屋。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-transparent ml-2 pl-6 pb-2"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">21:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">靜池夜語</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">回到溫潤的房內泡杯熱茶，享受專屬的靜謐。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">&lt;!-- Day 2 --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">h5</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-bold tracking-widest bg-gray-200 inline-block px-3 py-1 mb-6 text-gray-700"</span><span class="s3">&gt;</span><span class="s5">DAY 2</span><span class="s3">&lt;/</span><span class="s4">h5</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">10:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">藝術洗禮</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">享用早餐後，驅車前往朱銘美術館欣賞戶外雕塑。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">13:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">漁港嚐鮮</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">沿海岸線開車至龜吼漁港，品嚐當季鮮甜漁獲。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-accent ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">15:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">看海放空</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">順遊野柳，或在中角灣周邊找間景觀咖啡廳聽海。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-transparent ml-2 pl-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1"</span><span class="s3">&gt;</span><span class="s5">17:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">質感伴手</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">帶上在地特色伴手禮，為旅程畫下完美句點。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- Image Area --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex-1 hidden md:block"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">img</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://images.unsplash.com/photo-1498623116890-37e912163d5d?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full h-full object-cover shadow-sm min-h-[400px] hover:opacity-95 transition-opacity"</span><span class="s5"> </span><span class="s2">alt</span><span class="s3">=</span><span class="s1">"北海岸湛藍海景"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 三天兩夜 (Option B) --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"itinerary-block bg-[#F4F3F0] -mx-8 px-8 py-12 md:-mx-16 md:px-16 shadow-inner"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"border-b border-gray-300 pb-4 mb-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">h3</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-medium tracking-widest mb-2 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">OPTION B</span><span class="s3">&lt;/</span><span class="s4">h3</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">h4</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl font-light tracking-wider text-gray-800"</span><span class="s3">&gt;</span><span class="s5">北海岸深度沉浸自駕遊</span><span class="s3">&lt;/</span><span class="s4">h4</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm text-gray-500 mt-2 tracking-wide"</span><span class="s3">&gt;</span><span class="s5">3 Days 2 Nights</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex flex-col md:flex-row-reverse gap-12"</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s1">&lt;!-- Text Timeline --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"flex-1"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">&lt;!-- Day 1 --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"mb-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">h5</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700"</span><span class="s3">&gt;</span><span class="s5">DAY 1</span><span class="s3">&lt;/</span><span class="s4">h5</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">14:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">海岸兜風</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">沿台二線濱海公路行駛，欣賞石門洞或白沙灣海景。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">16:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">入住靜池</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">抵達「靜池一隅」，享受老街熱鬧與寧靜兼具的空間。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">17:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">街町尋味</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">散步尋訪小吃，推薦金山王肉包，並在文創小店挖寶。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-transparent ml-2 pl-6 pb-2"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">19:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">溫泉足湯</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">散步至中山溫泉公園，在星空下享受黃金足湯。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">&lt;!-- Day 2 --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"mb-8"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">h5</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700"</span><span class="s3">&gt;</span><span class="s5">DAY 2</span><span class="s3">&lt;/</span><span class="s4">h5</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">10:30 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">藝術漫步</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">睡到自然醒，前往朱銘美術館感受藝術與自然交融。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">14:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">景觀午茶</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">驅車至中角灣周邊咖啡廳，品嚐輕食、看海放空。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">16:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">獅頭山夕照</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">黃昏時分欣賞海面上的燭臺雙嶼，光影最為迷人。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-transparent ml-2 pl-6 pb-2"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">19:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">總督名湯</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">前往舊金山總督溫泉，徹底洗去兩日的疲憊。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">&lt;!-- Day 3 --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">h5</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700"</span><span class="s3">&gt;</span><span class="s5">DAY 3</span><span class="s3">&lt;/</span><span class="s4">h5</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">11:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">告別靜池</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">悠閒退房，採買金山在地特色伴手禮。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-gray-300 ml-2 pl-6 pb-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">12:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">龜吼嚐鮮</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">驅車前往龜吼漁港，用最鮮甜的漁獲款待自己。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative border-l border-transparent ml-2 pl-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"timeline-dot bg-gray-400"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-wider mb-1 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">14:00 </span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">地質奇觀</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-sm text-gray-500 leading-relaxed font-light"</span><span class="s3">&gt;</span><span class="s1">走訪野柳地質公園，心滿意足地驅車返家。</span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- Image Area --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex-1 hidden md:block"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">img</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full h-full object-cover shadow-sm min-h-[500px] hover:opacity-95 transition-opacity"</span><span class="s5"> </span><span class="s2">alt</span><span class="s3">=</span><span class="s1">"海岸公路與奇岩"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Footer / Info Section --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-24 pt-12 border-t border-accent mx-10 md:mx-32 text-center"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 官方訂房與聯繫 (加入 Social Icons) --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"mb-14"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">h6</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-widest mb-6 text-gray-800"</span><span class="s3">&gt;</span><span class="s5">RESERVATION / 官方訂房聯繫</span><span class="s3">&lt;/</span><span class="s4">h6</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex flex-row justify-center items-center gap-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- LINE --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://lin.ee/nyp8wRm"</span><span class="s5"> </span><span class="s2">target</span><span class="s3">=</span><span class="s1">"_blank"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hover:opacity-80 transition-opacity"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">img</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"</span><span class="s5"> </span><span class="s2">alt</span><span class="s3">=</span><span class="s1">"加入好友"</span><span class="s5"> </span><span class="s2">height</span><span class="s3">=</span><span class="s1">"36"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"h-[36px]"</span><span class="s5"> </span><span class="s2">border</span><span class="s3">=</span><span class="s1">"0"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- Facebook --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://www.facebook.com/JHquitecorner/"</span><span class="s5"> </span><span class="s2">target</span><span class="s3">=</span><span class="s1">"_blank"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hover:opacity-80 transition-opacity flex items-center justify-center w-[36px] h-[36px] bg-[#1877F2] rounded-md text-white shadow-sm"</span><span class="s5"> </span><span class="s2">aria-label</span><span class="s3">=</span><span class="s1">"Facebook"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">svg</span><span class="s5"> </span><span class="s2">fill</span><span class="s3">=</span><span class="s1">"currentColor"</span><span class="s5"> </span><span class="s2">viewBox</span><span class="s3">=</span><span class="s1">"0 0 24 24"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-5 h-5"</span><span class="s3">&gt;&lt;</span><span class="s4">path</span><span class="s5"> </span><span class="s2">d</span><span class="s3">=</span><span class="s1">"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"</span><span class="s3">/&gt;&lt;/</span><span class="s4">svg</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- Google --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://g.page/r/CY8zKytBXlq8EAE/review"</span><span class="s5"> </span><span class="s2">target</span><span class="s3">=</span><span class="s1">"_blank"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hover:opacity-80 transition-opacity flex items-center justify-center w-[36px] h-[36px] bg-white border border-gray-200 rounded-md shadow-sm"</span><span class="s5"> </span><span class="s2">aria-label</span><span class="s3">=</span><span class="s1">"Google"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">svg</span><span class="s5"> </span><span class="s2">viewBox</span><span class="s3">=</span><span class="s1">"0 0 24 24"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-5 h-5"</span><span class="s3">&gt;&lt;</span><span class="s4">path</span><span class="s5"> </span><span class="s2">fill</span><span class="s3">=</span><span class="s1">"#4285F4"</span><span class="s5"> </span><span class="s2">d</span><span class="s3">=</span><span class="s1">"M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"</span><span class="s3">/&gt;&lt;</span><span class="s4">path</span><span class="s5"> </span><span class="s2">fill</span><span class="s3">=</span><span class="s1">"#34A853"</span><span class="s5"> </span><span class="s2">d</span><span class="s3">=</span><span class="s1">"M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"</span><span class="s3">/&gt;&lt;</span><span class="s4">path</span><span class="s5"> </span><span class="s2">fill</span><span class="s3">=</span><span class="s1">"#FBBC05"</span><span class="s5"> </span><span class="s2">d</span><span class="s3">=</span><span class="s1">"M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"</span><span class="s3">/&gt;&lt;</span><span class="s4">path</span><span class="s5"> </span><span class="s2">fill</span><span class="s3">=</span><span class="s1">"#EA4335"</span><span class="s5"> </span><span class="s2">d</span><span class="s3">=</span><span class="s1">"M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"</span><span class="s3">/&gt;&lt;/</span><span class="s4">svg</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-12 h-px bg-gray-300 mx-auto mb-10"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">h6</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-bold tracking-widest mb-4"</span><span class="s3">&gt;</span><span class="s5">自駕專屬指南</span><span class="s3">&lt;/</span><span class="s4">h6</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"grid grid-cols-2 md:grid-cols-4 gap-4 text-xs text-gray-500 font-light tracking-wide pb-12"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-800 font-medium mb-1"</span><span class="s3">&gt;</span><span class="s5">靜池一隅</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">金山區公所旁 / 中山堂</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">步行 3-5 分鐘</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-800 font-medium mb-1"</span><span class="s3">&gt;</span><span class="s5">獅頭山公園</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">入口處免費停車場</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">車程 5 分鐘</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-800 font-medium mb-1"</span><span class="s3">&gt;</span><span class="s5">朱銘美術館</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">專屬免費遊客停車場</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">車程 15 分鐘</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-800 font-medium mb-1"</span><span class="s3">&gt;</span><span class="s5">龜吼漁港</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">漁夫市集旁付費停車</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"block"</span><span class="s3">&gt;</span><span class="s1">車程 15-20 分鐘</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
-<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 民宿立案編號 --&gt;</span></p>
-<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-4 text-xs text-gray-400 font-light tracking-widest border-t border-gray-200 pt-6"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>金山民宿 靜池一隅 新北市民宿442號</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s10"></span><br></p>
-<p class="p1"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+
+    <div class="poster-container pb-16">
+        
+        <!-- Header Section -->
+        <header class="pt-20 px-10 md:px-20 text-center">
+            <h2 class="text-sm md:text-base text-accent tracking-[0.3em] mb-4 uppercase">Jing Chi Yi Yu</h2>
+            <h1 class="text-4xl md:text-5xl font-light tracking-[0.2em] mb-6 text-gray-800">靜 池 一 隅</h1>
+            <div class="w-12 h-px bg-gray-400 mx-auto mb-6"></div>
+            <p class="text-lg md:text-xl font-light tracking-widest text-gray-600">隱於百年老街，擁抱山海之息</p>
+        </header>
+
+        <!-- Intro Text -->
+        <div class="mt-24 px-10 md:px-32 text-center">
+            <h3 class="text-lg font-medium tracking-widest mb-6 text-gray-800">出門即景點・入室即安居</h3>
+            <p class="leading-relaxed font-light text-gray-700 tracking-wide">
+                在靜謐與繁華的交界，為您們留了一處安放身心的角落。<br>
+                這是一趟不趕時間、專注於五感體驗的旅程。<br>
+                乘著自駕的隨性，讓您與伴侶能牽著手，慢慢感受北海岸的溫度。
+            </p>
+        </div>
+
+        <!-- Itinerary Section -->
+        <div class="mt-24 px-8 md:px-16 flex flex-col gap-24">
+
+            <!-- 兩天一夜 (Option A) -->
+            <div class="itinerary-block">
+                <div class="border-b border-accent pb-4 mb-8">
+                    <h3 class="text-xl font-medium tracking-widest mb-2">OPTION A</h3>
+                    <h4 class="text-2xl font-light tracking-wider">經典山海休日自駕遊</h4>
+                    <p class="text-sm text-accent mt-2 tracking-wide">2 Days 1 Night</p>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-12">
+                    <div class="flex-1">
+                        <div class="mb-8">
+                            <h5 class="text-xs font-bold tracking-widest bg-gray-200 inline-block px-3 py-1 mb-6 text-gray-700">DAY 1</h5>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">14:00 <span class="ml-2 font-medium">遠眺雙嶼</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">抵達金山，漫步獅頭山公園，享受海風遠眺燭臺雙嶼。</div>
+                            </div>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">16:30 <span class="ml-2 font-medium">入住靜池一隅</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">驅車前往老街停妥愛車，入住「靜池一隅」。</div>
+                            </div>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">17:30 <span class="ml-2 font-medium">老街晚宴</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">傍晚人潮散去，愜意品嚐鴨肉與拔絲地瓜。</div>
+                            </div>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">19:00 <span class="ml-2 font-medium">溫泉洗滌</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">散步享受足湯，或驅車體驗充滿歷史感的個人湯屋。</div>
+                            </div>
+                            <div class="relative border-l border-transparent ml-2 pl-6 pb-2">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">21:00 <span class="ml-2 font-medium">靜池夜語</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">回到溫潤的房內泡杯熱茶，享受專屬的靜謐。</div>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-xs font-bold tracking-widest bg-gray-200 inline-block px-3 py-1 mb-6 text-gray-700">DAY 2</h5>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">10:00 <span class="ml-2 font-medium">藝術洗禮</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">享用早餐後，驅車前往朱銘美術館欣賞戶外雕塑。</div>
+                            </div>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">13:00 <span class="ml-2 font-medium">漁港嚐鮮</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">沿海岸線開車至龜吼漁港，品嚐當季鮮甜漁獲。</div>
+                            </div>
+                            <div class="relative border-l border-accent ml-2 pl-6 pb-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">15:00 <span class="ml-2 font-medium">看海放空</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">順遊野柳，或在中角灣周邊找間景觀咖啡廳聽海。</div>
+                            </div>
+                            <div class="relative border-l border-transparent ml-2 pl-6">
+                                <div class="timeline-dot"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1">17:00 <span class="ml-2 font-medium">質感伴手</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">帶上在地特色伴手禮，為旅程畫下完美句點。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 hidden md:block">
+                        <img src="https://images.unsplash.com/photo-1498623116890-37e912163d5d?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover shadow-sm min-h-[400px] hover:opacity-95 transition-opacity" alt="北海岸湛藍海景">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 三天兩夜 (Option B) -->
+            <div class="itinerary-block bg-[#F4F3F0] -mx-8 px-8 py-12 md:-mx-16 md:px-16 shadow-inner">
+                <div class="border-b border-gray-300 pb-4 mb-8">
+                    <h3 class="text-xl font-medium tracking-widest mb-2 text-gray-800">OPTION B</h3>
+                    <h4 class="text-2xl font-light tracking-wider text-gray-800">北海岸深度沉浸自駕遊</h4>
+                    <p class="text-sm text-gray-500 mt-2 tracking-wide">3 Days 2 Nights</p>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse gap-12">
+                    <div class="flex-1">
+                        <div class="mb-8">
+                            <h5 class="text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700">DAY 1</h5>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">14:00 <span class="ml-2 font-medium">海岸兜風</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">沿台二線濱海公路行駛，欣賞石門洞或白沙灣海景。</div>
+                            </div>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">16:00 <span class="ml-2 font-medium">入住靜池</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">抵達「靜池一隅」，享受老街熱鬧與寧靜兼具的空間。</div>
+                            </div>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">17:00 <span class="ml-2 font-medium">街町尋味</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">散步尋訪小吃，推薦金山王肉包，並在文創小店挖寶。</div>
+                            </div>
+                            <div class="relative border-l border-transparent ml-2 pl-6 pb-2">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">19:00 <span class="ml-2 font-medium">溫泉足湯</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">散步至中山溫泉公園，在星空下享受黃金足湯。</div>
+                            </div>
+                        </div>
+                        <div class="mb-8">
+                            <h5 class="text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700">DAY 2</h5>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">10:30 <span class="ml-2 font-medium">藝術漫步</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">睡到自然醒，前往朱銘美術館感受藝術與自然交融。</div>
+                            </div>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">14:00 <span class="ml-2 font-medium">景觀午茶</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">驅車至中角灣周邊咖啡廳，品嚐輕食、看海放空。</div>
+                            </div>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">16:00 <span class="ml-2 font-medium">獅頭山夕照</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">黃昏時分欣賞海面上的燭臺雙嶼，光影最為迷人。</div>
+                            </div>
+                            <div class="relative border-l border-transparent ml-2 pl-6 pb-2">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">19:00 <span class="ml-2 font-medium">總督名湯</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">前往舊金山總督溫泉，徹底洗去兩日的疲憊。</div>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-xs font-bold tracking-widest bg-white border border-gray-200 inline-block px-3 py-1 mb-6 text-gray-700">DAY 3</h5>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">11:00 <span class="ml-2 font-medium">告別靜池</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">悠閒退房，採買金山在地特色伴手禮。</div>
+                            </div>
+                            <div class="relative border-l border-gray-300 ml-2 pl-6 pb-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">12:00 <span class="ml-2 font-medium">龜吼嚐鮮</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">驅車前往龜吼漁港，用最鮮甜的漁獲款待自己。</div>
+                            </div>
+                            <div class="relative border-l border-transparent ml-2 pl-6">
+                                <div class="timeline-dot bg-gray-400"></div>
+                                <div class="text-sm font-bold tracking-wider mb-1 text-gray-800">14:00 <span class="ml-2 font-medium">地質奇觀</span></div>
+                                <div class="text-sm text-gray-500 leading-relaxed font-light">走訪野柳地質公園，心滿意足地驅車返家。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 hidden md:block">
+                        <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover shadow-sm min-h-[500px] hover:opacity-95 transition-opacity" alt="海岸公路與奇岩">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer / Info Section -->
+        <div class="mt-24 pt-12 border-t border-accent mx-10 md:mx-32 text-center">
+            <div class="mb-14">
+                <h6 class="text-sm font-bold tracking-widest mb-6 text-gray-800">RESERVATION / 官方訂房聯繫</h6>
+                <div class="flex flex-row justify-center items-center gap-6">
+                    <a href="https://lin.ee/nyp8wRm" target="_blank" class="hover:opacity-80 transition-opacity">
+                        <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" class="h-[36px]" border="0">
+                    </a>
+                    <a href="https://www.facebook.com/JHquitecorner/" target="_blank" class="hover:opacity-80 transition-opacity flex items-center justify-center w-[36px] h-[36px] bg-[#1877F2] rounded-md text-white shadow-sm" aria-label="Facebook">
+                        <svg fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://g.page/r/CY8zKytBXlq8EAE/review" target="_blank" class="hover:opacity-80 transition-opacity flex items-center justify-center w-[36px] h-[36px] bg-white border border-gray-200 rounded-md shadow-sm" aria-label="Google">
+                        <svg viewBox="0 0 24 24" class="w-5 h-5"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-12 h-px bg-gray-300 mx-auto mb-10"></div>
+
+            <h6 class="text-sm font-bold tracking-widest mb-4">自駕專屬指南</h6>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs text-gray-500 font-light tracking-wide pb-12">
+                <div>
+                    <span class="block text-gray-800 font-medium mb-1">靜池一隅</span>
+                    <span class="block">金山區公所旁 / 中山堂</span>
+                    <span class="block">步行 3-5 分鐘</span>
+                </div>
+                <div>
+                    <span class="block text-gray-800 font-medium mb-1">獅頭山公園</span>
+                    <span class="block">入口處免費停車場</span>
+                    <span class="block">車程 5 分鐘</span>
+                </div>
+                <div>
+                    <span class="block text-gray-800 font-medium mb-1">朱銘美術館</span>
+                    <span class="block">專屬免費遊客停車場</span>
+                    <span class="block">車程 15 分鐘</span>
+                </div>
+                <div>
+                    <span class="block text-gray-800 font-medium mb-1">龜吼漁港</span>
+                    <span class="block">漁夫市集旁付費停車</span>
+                    <span class="block">車程 15-20 分鐘</span>
+                </div>
+            </div>
+            
+            <div class="mt-4 text-xs text-gray-400 font-light tracking-widest border-t border-gray-200 pt-6">
+                金山民宿 靜池一隅 新北市民宿442號
+            </div>
+            
+        </div>
+
+    </div>
+
 </body>
 </html>
